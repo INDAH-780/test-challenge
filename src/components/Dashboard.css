@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.main-container {
+  display: flex;
+  height: 77vh;
+  width: 60vw;
+  font-family: "Nunito Sans", sans-serif;
+
+  background-color: aqua;
+  margin: 100px;
+  margin-left: 200px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.colored {
+  background: #9b679c;
+  color: white;
+  height: 77vh;
+  width: 20vw;
+  margin-bottom: 20px;
+}
+.try {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.moon {
+  background-color: #fff;
+  margin-left: 150px;
+  height: 30px;
+  width: 35px;
+  border-radius: 3px;
+  color: #dba7dc;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.not-colored {
+  height: 77vh;
+  background-color: rgb(239, 243, 246);
+  width: 40vw;
+}
+.search-bar {
+  display: flex;
+  margin-left: 20px;
+  align-content: space-between;
+}
+.search {
+  margin-top: 17px;
+  margin-left: 20px;
+  width: 180px;
+  height: 30px;
+  border-radius: 4px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+.searchIcon {
+  margin-top: 17px;
+  padding-left: 21px;
+  height: 38px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+form {
+  display: inline-block;
+  align-items: center;
+  background-color: #fff;
+  height: 63vh;
+  padding-top: 10px;
+  width: 30vw;
+  margin-left: 30px;
+  box-shadow: 2px 5px 10px rgba(104, 102, 102, 0.5);
+}
+.form-control {
+  text-align: left;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: 30px;
+
+  width: 85%;
+}
+
+.form-control input {
+  border: 1px solid #777;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 10px;
+  height: 15px;
+
+  width: 95%;
+}
+button {
+  background: #142e6e;
+  height: 40px;
+  width: 150px;
+  border: none;
+  color: #fff;
+}
+#update {
+  height: 35px;
+  width: 90%;
+  margin-left: 30px;
+}
+h2 {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+.icon {
+  background-color: #fff;
+  margin-top: 17px;
+  /*height: 30px;
+    width: 50px;*/
+  width: 50px;
+  height: 22px;
+  margin-left: 20px;
+  border-radius: 2px;
+  align-items: center;
+  padding-left: 8px;
+  padding-top: 8px;
+}
