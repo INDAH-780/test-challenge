@@ -12,6 +12,26 @@
   margin: 100px;
   margin-left: 200px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+
+   @media only screen and (max-width:320px) {
+    width: 80vw;
+    height: 77vh;
+    hr{
+        margin-bottom: 0.3rem;
+    }
+    
+  }
+  @media only screen and (min-width:360px) {
+    width: 30vw;
+    height: 90vh;
+    
+  }
+
+   @media only screen and (min-width:411px) {
+    width: 30vw;
+    height: 77vh;
+    
+  }
 }
 .colored {
   background: #9b679c;
